@@ -560,7 +560,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				SetProps(MakeElement("Image", "https://www.roblox.com/headshot-thumbnail/image?userId=".. LocalPlayer.UserId .."&width=420&height=420&format=png"), {
 					Size = UDim2.new(1, 0, 1, 0)
 				}),
-				OrionLib:CreateLabel("discord.gg/XEONHUB"),
+				OrionLib:Label("discord.gg/XEONHUB"),
 				AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://4031889928"), {
 					Size = UDim2.new(1, 0, 1, 0),
 				}), "Second"),
