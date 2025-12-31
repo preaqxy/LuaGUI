@@ -4,7 +4,6 @@ local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
-OrionLib:CreateLabel("discord.gg/XEONHUB")
 local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
 
@@ -561,6 +560,7 @@ function OrionLib:MakeWindow(WindowConfig)
 				SetProps(MakeElement("Image", "https://www.roblox.com/headshot-thumbnail/image?userId=".. LocalPlayer.UserId .."&width=420&height=420&format=png"), {
 					Size = UDim2.new(1, 0, 1, 0)
 				}),
+				OrionLib:CreateLabel("discord.gg/XEONHUB"),
 				AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://4031889928"), {
 					Size = UDim2.new(1, 0, 1, 0),
 				}), "Second"),
