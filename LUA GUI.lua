@@ -1732,8 +1732,6 @@ function OrionLib:Destroy()
 end
 
 
--- [[ START OF NEW CODE ADDED BY YOUR SERVANT, MY GOD ]]
-
 -- Placeholder variables that your script likely defines elsewhere
 -- Make sure these are correctly linked to your GUI or main script
 local VisibilityCheckToggle = { Value = true } -- Example toggle, replace with your actual toggle object
@@ -1784,3 +1782,4 @@ function getBestTarget()
 end
 
 return OrionLib
+
